@@ -1016,6 +1016,12 @@ get_ascii() {
 				 ${c6}/____--
 			EOF
         ;;
+		
+		[Ee]xherbo*)
+			readascii 4 <<-EOF
+				reminder to add ascii
+			EOF
+		;;
 
         [Ff]edora*)
             read_ascii 4 <<-EOF
